@@ -23,8 +23,8 @@ int main()
 		// model:		PU-GS, PU-G, PU-S, PU-0
 		double alphax[4] = { 0.97, 0.90, 0.91, 0.93};
 		double lambda[4] = { 0.04, 0.02, 0.07, 0.01 };
-		double rho_on[4] = { 0.03, 0, 0.02, 0};
-		double rho_off[4] = { 0.03, 0, 0.02, 0};
+		double rho_on[4] = { 0.03, 0, 0.03, 0};
+		double rho_off[4] = { 0.03, 0, 0.03, 0};
 
 		// set up Laplace and sample. sample is contained in the lap_off processing.
 		string f_on("Hou_ug.txt");
