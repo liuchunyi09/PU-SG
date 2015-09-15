@@ -40,7 +40,7 @@ int main()
 
 		// solver by model order
 		bool d_flag = true;
-		int disbest = 20;
+		int disbest = 50;
 		double AUC_model[4] = { 0 };
 		double AUC_best = 0;
 		double pat1 = 0, pat3 = 0, pat5 = 0, MAP = 0;
